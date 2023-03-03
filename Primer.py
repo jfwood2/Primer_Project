@@ -39,6 +39,7 @@ if frprimer == ("Forward"):
 else:
     print("Okay, I will now make you some Reverse primers!")
 
+#This is a git test
 
 #insert code to make forward primer
 
