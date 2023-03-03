@@ -40,6 +40,8 @@ else:
     print("Okay, I will now make you some Reverse primers!")
 
 #This is a git test
+#Work on the code for this, we need to figure out how to use arithmetic logic 
+
 
 #insert code to make forward primer
 
