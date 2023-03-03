@@ -1,8 +1,8 @@
 # PCR Primers from a Input DNA Seq
 #ask user for DNA seq 
-q1 = input("Would you like to make primers? ")
+q1 = input("Would you like to make primers? (Y/N) ")
 #command for the IF
-if q1 == ("yes"):
+if q1.upper() == "Y":
     print("Okay lets go")
 
 else: 
@@ -32,16 +32,17 @@ import time
 time.sleep(1.5)
 
 #ask which primer they want to make first 
-frprimer = input("Would you like to make the Forward or Reverse primer first? (Forward/Reverse)")
-if frprimer == ("Forward"):
+frprimer = input("Would you like to make the Forward or Reverse primer first? (F/R)")
+if frprimer.upper() == "F":
     print("Great, I willl make the forward primers for you now!")
+    time.sleep(.5)
  
 else:
     print("Okay, I will now make you some Reverse primers!")
+    time.sleep (.5)
 
-#This is a git test
-#Work on the code for this, we need to figure out how to use arithmetic logic 
 
+primer = [dna_seq ]
 
 #insert code to make forward primer
 
