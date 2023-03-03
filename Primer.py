@@ -1,7 +1,7 @@
 # PCR Primers from a Input DNA Seq
 #ask user for DNA seq 
 q1 = input("Would you like to make primers? ")
-
+#command for the IF
 if q1 == ("yes"):
     print("Okay lets go")
 
